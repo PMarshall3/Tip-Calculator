@@ -1,0 +1,6 @@
+bill = float(input("How much was the bill? "))
+split_it = int(input("bill split how many ways ? "))
+total_wTip = (bill*.12) + bill
+t_af_split = total_wTip / split_it
+format_float = "{:.2f}".format(t_af_split)
+print(format_float)
