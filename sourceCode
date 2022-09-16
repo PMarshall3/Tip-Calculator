@@ -3,7 +3,8 @@ bill = float(input("How much was the bill? "))
 #recieve number of splits 
 split_it = int(input("bill split how many ways ? "))
 #Adding tip
-total_wTip = (bill*.12) + bill
+tip = float(input("How much of a tip do you want to leave? "))
+total_wTip = (bill * tip) + bill
 #Divide the check with tip amongst all 
 t_af_split = total_wTip / split_it
 #Format output tp display 2 decimal places 
