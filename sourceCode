@@ -1,6 +1,12 @@
+#recieve user data
 bill = float(input("How much was the bill? "))
+#recieve number of splits 
 split_it = int(input("bill split how many ways ? "))
+#Adding tip
 total_wTip = (bill*.12) + bill
+#Divide the check with tip amongst all 
 t_af_split = total_wTip / split_it
+#Format output tp display 2 decimal places 
 format_float = "{:.2f}".format(t_af_split)
+#output amount to pay per person
 print(format_float)
